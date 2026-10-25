@@ -47,5 +47,3 @@ python tools/run_tests.py
 ## 来源与限制
 
 本项目依赖 [Isaac Lab](https://github.com/isaac-sim/IsaacLab) 和 [RSL-RL](https://github.com/leggedrobotics/rsl_rl)。未打包第三方仿真器、驱动、机器人 USD 资产或账号信息。上游权利与本项目待定的代码/模型许可见 [THIRD_PARTY.md](THIRD_PARTY.md)。目前仅验证仿真平地，不涉及实机部署。
-
-可用于简历的表述见[简历素材](docs/RESUME.md)，请按本人实际负责的部分使用。
