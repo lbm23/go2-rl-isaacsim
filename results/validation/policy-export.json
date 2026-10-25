@@ -1,0 +1,11 @@
+{
+  "actor_state_tensors_identical": true,
+  "outputs_identical_128_observations": true,
+  "input_shape": [
+    128,
+    48
+  ],
+  "public_policy_sha256": "a4d1a1598cda1c22af93fa12399fcfafb72aef280fe88403eee44f47375a71f8",
+  "tensor_count": 8,
+  "change": "Only debug source paths redacted; no training"
+}

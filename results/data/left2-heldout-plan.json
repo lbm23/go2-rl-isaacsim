@@ -1,0 +1,113 @@
+{
+  "study": "Left 2 BW targeted continuation; fixed fresh evaluation seeds",
+  "seeds": [
+    920001,
+    920002,
+    920003,
+    920004,
+    920005,
+    920006,
+    920007,
+    920008,
+    920009,
+    920010,
+    920011,
+    920012,
+    920013,
+    920014,
+    920015,
+    920016
+  ],
+  "excluded_known_seeds": [
+    0,
+    7,
+    17,
+    42,
+    43,
+    910001,
+    910002,
+    910003,
+    910004,
+    910005,
+    910006,
+    910007,
+    910008,
+    910009,
+    910010,
+    910011,
+    910012,
+    910013,
+    910014,
+    910015,
+    910016,
+    910017,
+    910018,
+    910019,
+    910020
+  ],
+  "samples_per_condition_per_seed": 64,
+  "conditions_per_seed": 17,
+  "evaluation_hard_limit_seconds": 720,
+  "evaluation_term_at_seconds": 710,
+  "analysis_hard_limit_seconds": 120,
+  "primary_condition": {
+    "direction": "left",
+    "level_bw": 2.0
+  },
+  "primary_estimand": "Equal-weight mean over paired seeds of after minus before fall probability, among push-eligible trials",
+  "primary_test": "Exact two-sided paired-seed sign-flip test, alpha 0.05; exchangeability/symmetry of paired differences under null assumed",
+  "confidence_interval": "95 percent paired-seed cluster percentile bootstrap, 20000 resamples; descriptive interval, may differ slightly from exact test",
+  "resampling_seed": 2026102302,
+  "secondary_fall_tests": "Holm correction across the other 15 pushed conditions; no-push control descriptive",
+  "model_order": "Odd list index before/after, even list index after/before",
+  "incomplete_run_policy": "No outcome-dependent stopping or extension. Analyze only fully completed seed pairs, disclose all incomplete runs and failed force audits. No inferential conclusion with fewer than 12 complete seed pairs.",
+  "protocol": "Unmodified push_experiment.py and push_protocol.py; 0.5 m/s, force at 5 s for 0.2 s, 15 s horizon; four directions x 0.25/0.5/1/2 BW plus no push",
+  "frozen_models": {
+    "before": {
+      "relative_path": "IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_00-26-28_robust_weighted600_fixed/model_4575.pt",
+      "sha256": "3dd78eba34c2ce81235c93a31daaca09151d089f3ac0f16df71c85e36b15b994"
+    },
+    "after": {
+      "relative_path": "IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_11-08-48_left2_600/model_7350.pt",
+      "sha256": "ef2557038287f8cd9f8751bd9f00b33a862cf4f947f4336ce9d39b7bcd1d32d3"
+    }
+  },
+  "training_hard_limit_seconds": 600,
+  "training_seed": 17,
+  "acceptance": "Primary left2: fall delta CI upper<0 and paired two-sided p<.05; backward/right1: each delta CI upper<2 pp and after fall rate<=2%; walking original >=90% threshold for both fixed seeds. Engineering acceptance, not exact noninferiority proof; no retries or outcome-driven budget extensions.",
+  "fixed_demo_seed": 920001,
+  "training_distribution": {
+    "no_push": 0.3,
+    "direction_given_push": [
+      0.05,
+      0.25,
+      0.5,
+      0.2
+    ],
+    "left_ranges_bw": [
+      [
+        1,
+        1.5
+      ],
+      [
+        1.25,
+        1.75
+      ],
+      [
+        1.5,
+        2
+      ]
+    ],
+    "phase_times_s": [
+      180,
+      360
+    ],
+    "left_replay_probability": 0.25,
+    "left_replay_range_bw": [
+      0.75,
+      1.25
+    ],
+    "last_phase_exact2_probability_among_left": 0.25
+  },
+  "checkpoint_selection": "Latest complete saved checkpoint inside the single original 600 s window. Fill its hash before evaluation; never select by evaluation score."
+}

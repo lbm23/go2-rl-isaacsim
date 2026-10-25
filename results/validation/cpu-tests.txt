@@ -1,0 +1,92 @@
+Python: 3.12.15 (main, Oct 14 2026, 01:05:27) [Clang 23.1.3 ]
+CPU only; CUDA_VISIBLE_DEVICES empty.
+test_commands_remain_inside_validated_limits (test_go2_straight_controller.StraightControllerTests.test_commands_remain_inside_validated_limits) ... ok
+test_comparison_mode_has_no_feedback (test_go2_straight_controller.StraightControllerTests.test_comparison_mode_has_no_feedback) ... ok
+test_heading_feedback_turns_toward_line (test_go2_straight_controller.StraightControllerTests.test_heading_feedback_turns_toward_line) ... ok
+test_invalid_state_is_rejected (test_go2_straight_controller.StraightControllerTests.test_invalid_state_is_rejected) ... ok
+test_lateral_feedback_returns_to_target (test_go2_straight_controller.StraightControllerTests.test_lateral_feedback_returns_to_target) ... ok
+test_missing_joint_is_rejected (test_go2_straight_controller.StraightControllerTests.test_missing_joint_is_rejected) ... ok
+test_new_actuator_limits_and_control_period_are_preserved (test_go2_straight_controller.StraightControllerTests.test_new_actuator_limits_and_control_period_are_preserved) ... ok
+test_only_rear_action_offsets_change (test_go2_straight_controller.StraightControllerTests.test_only_rear_action_offsets_change) ... ok
+test_stand_does_not_move_sideways (test_go2_straight_controller.StraightControllerTests.test_stand_does_not_move_sideways) ... ok
+test_stand_retains_heading_hold (test_go2_straight_controller.StraightControllerTests.test_stand_retains_heading_hold) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.000s
+
+OK
+test_no_claim_from_nonsignificance_or_missing_walking (test_left2_accept.AcceptanceTests.test_no_claim_from_nonsignificance_or_missing_walking) ... ok
+test_preservation_required_even_if_left_improves (test_left2_accept.AcceptanceTests.test_preservation_required_even_if_left_improves) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+test_autoreset_cannot_hide_a_fall (test_push_protocol.PushProtocolTests.test_autoreset_cannot_hide_a_fall) ... ok
+test_heading_rotation_and_force_levels (test_push_protocol.PushProtocolTests.test_heading_rotation_and_force_levels) ... ok
+test_no_recovery_is_not_reported_as_zero_seconds (test_push_protocol.PushProtocolTests.test_no_recovery_is_not_reported_as_zero_seconds) ... ok
+test_preexisting_fall_is_excluded (test_push_protocol.PushProtocolTests.test_preexisting_fall_is_excluded) ... ok
+test_short_impulse_and_sustained_tip (test_push_protocol.PushProtocolTests.test_short_impulse_and_sustained_tip) ... ok
+test_transient_stability_does_not_count_as_recovery (test_push_protocol.PushProtocolTests.test_transient_stability_does_not_count_as_recovery) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.011s
+
+OK
+test_body_directions_rotate_to_world_heading (test_robust_curriculum.CurriculumTests.test_body_directions_rotate_to_world_heading) ... ok
+test_force_is_removed_at_pulse_end (test_robust_curriculum.CurriculumTests.test_force_is_removed_at_pulse_end) ... ok
+test_old_stage_samples_cannot_support_new_stage (test_robust_curriculum.CurriculumTests.test_old_stage_samples_cannot_support_new_stage) ... ok
+test_promotion_requires_evidence_and_threshold (test_robust_curriculum.CurriculumTests.test_promotion_requires_evidence_and_threshold) ... ok
+test_weighting_and_caps (test_robust_curriculum.CurriculumTests.test_weighting_and_caps) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.004s
+
+OK
+test_ci_and_holm (test_heldout_analysis.HeldoutTests.test_ci_and_holm) ... ok
+test_cluster_unit_not_environment_count (test_heldout_analysis.HeldoutTests.test_cluster_unit_not_environment_count) ... ok
+test_exact_all_positive_and_swap (test_heldout_analysis.HeldoutTests.test_exact_all_positive_and_swap) ... ok
+test_failures_not_zero_recovery (test_heldout_analysis.HeldoutTests.test_failures_not_zero_recovery) ... ok
+test_matches_scipy_exact (test_heldout_analysis.HeldoutTests.test_matches_scipy_exact) ... ok
+test_partial_pair_excluded_even_if_file_exists (test_heldout_analysis.HeldoutTests.test_partial_pair_excluded_even_if_file_exists) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.272s
+
+OK
+test_backward_right_strength_preserved (test_left2_curriculum.Left2Tests.test_backward_right_strength_preserved) ... ok
+test_fixed_clock_boundaries (test_left2_curriculum.Left2Tests.test_fixed_clock_boundaries) ... ok
+test_force_is_removed_at_pulse_end (test_left2_curriculum.Left2Tests.test_force_is_removed_at_pulse_end) ... ok
+test_left_exposure_and_cap (test_left2_curriculum.Left2Tests.test_left_exposure_and_cap) ... ok
+test_rehearsal_weights (test_left2_curriculum.Left2Tests.test_rehearsal_weights) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.005s
+
+OK
+test_curriculum_caps_rehearsal_and_exact2 (test_ablation.AblationTests.test_curriculum_caps_rehearsal_and_exact2) ... ok
+test_cycle_boundaries (test_ablation.AblationTests.test_cycle_boundaries) ... ok
+test_direction_weights_and_common_random_numbers (test_ablation.AblationTests.test_direction_weights_and_common_random_numbers) ... ok
+test_exact_update_accounting (test_ablation.AblationTests.test_exact_update_accounting) ... ok
+test_optimizer_and_normalizer_state_equality (test_ablation.AblationTests.test_optimizer_and_normalizer_state_equality) ... ok
+test_pooled_distribution_exact_recipe_matching (test_ablation.AblationTests.test_pooled_distribution_exact_recipe_matching) ... ok
+test_seed_inference_and_failure_aware_score (test_ablation.AblationTests.test_seed_inference_and_failure_aware_score) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.010s
+
+OK
+test_crossed_bootstrap_preserves_pairing_and_constant_effect (test_default7350.ComparisonTests.test_crossed_bootstrap_preserves_pairing_and_constant_effect) ... ok
+test_failures_do_not_disappear_from_recovery_score (test_default7350.ComparisonTests.test_failures_do_not_disappear_from_recovery_score) ... ok
+test_pair_audit_rejects_changed_scenarios (test_default7350.ComparisonTests.test_pair_audit_rejects_changed_scenarios) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.016s
+
+OK
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+PASS: 9 isolated CPU test suites

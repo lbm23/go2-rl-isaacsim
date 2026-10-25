@@ -1,0 +1,169 @@
+{
+  "checkpoint_sha256": "ef2557038287f8cd9f8751bd9f00b33a862cf4f947f4336ce9d39b7bcd1d32d3",
+  "policy_actor_tensor_matches": {
+    "mlp.0.weight": true,
+    "mlp.0.bias": true,
+    "mlp.2.weight": true,
+    "mlp.2.bias": true,
+    "mlp.4.weight": true,
+    "mlp.4.bias": true,
+    "mlp.6.weight": true,
+    "mlp.6.bias": true
+  },
+  "comparison_20s": [
+    {
+      "case": "Before",
+      "duration_s": 20,
+      "maximum_lateral_m": 5.395826816558838,
+      "maximum_heading_deg": 78.33756792729355,
+      "mean_rear_width_m": 0.025727399870279787,
+      "minimum_rear_width_m_after_2s": -0.0021784427309773716
+    },
+    {
+      "case": "Integration matched",
+      "duration_s": 20,
+      "maximum_lateral_m": 1.7561217546463013,
+      "maximum_heading_deg": 18.446294428842766,
+      "mean_rear_width_m": 0.04986787707761169,
+      "minimum_rear_width_m_after_2s": 0.044906750823929364
+    },
+    {
+      "case": "Heading and line hold",
+      "duration_s": 20,
+      "maximum_lateral_m": 0.023453114554286003,
+      "maximum_heading_deg": 0.8087452512675127,
+      "mean_rear_width_m": 0.05063777930519986,
+      "minimum_rear_width_m_after_2s": 0.04482655347041603
+    },
+    {
+      "case": "Final (wider rear stance)",
+      "duration_s": 20,
+      "maximum_lateral_m": 0.041712772101163864,
+      "maximum_heading_deg": 1.823111477949099,
+      "mean_rear_width_m": 0.15221091925307215,
+      "minimum_rear_width_m_after_2s": 0.1361190608578013
+    }
+  ],
+  "validation_30s": [
+    {
+      "variant": "feedback",
+      "hip_bias": 0.1,
+      "speed_command": 0.3,
+      "duration": 30.0,
+      "final_position": [
+        9.260512351989746,
+        0.0737239345908165,
+        0.3700064420700073
+      ],
+      "min_height": 0.3277115821838379,
+      "final_yaw_deg": -2.335471381723086,
+      "max_abs_yaw_deg": 4.818122016779879,
+      "max_abs_lateral_m": 0.07392040640115738,
+      "mean_forward_speed": 0.3126136614137975,
+      "rear_width_min": 0.06420861455993299,
+      "rear_width_mean": 0.1500388388767203,
+      "front_width_mean": 0.18667463513385424,
+      "rear_foot_distance_min": 0.09485584755012545,
+      "no_fall": true,
+      "minimum_rear_width_after_2s": 0.0892681333684379,
+      "within_3deg_heading": false
+    },
+    {
+      "variant": "feedback",
+      "hip_bias": 0.1,
+      "speed_command": 0.5,
+      "duration": 30.0,
+      "final_position": [
+        15.167643547058105,
+        0.041187584400177,
+        0.3689907193183899
+      ],
+      "min_height": 0.3554954528808594,
+      "final_yaw_deg": -1.6091296610961932,
+      "max_abs_yaw_deg": 1.8234533054746174,
+      "max_abs_lateral_m": 0.041712772101163864,
+      "mean_forward_speed": 0.5105953933563243,
+      "rear_width_min": 0.0647503751303863,
+      "rear_width_mean": 0.15220983584597536,
+      "front_width_mean": 0.16624255765501936,
+      "rear_foot_distance_min": 0.07204510236999989,
+      "no_fall": true,
+      "minimum_rear_width_after_2s": 0.1361190608578013,
+      "within_3deg_heading": true
+    },
+    {
+      "variant": "feedback",
+      "hip_bias": 0.1,
+      "speed_command": 0.8,
+      "duration": 30.0,
+      "final_position": [
+        23.822969436645508,
+        0.0016619665548205376,
+        0.36820757389068604
+      ],
+      "min_height": 0.34400758147239685,
+      "final_yaw_deg": -0.46119139373113394,
+      "max_abs_yaw_deg": 1.2515501446621229,
+      "max_abs_lateral_m": 0.036535654217004776,
+      "mean_forward_speed": 0.8007750024879298,
+      "rear_width_min": 0.10987943582110457,
+      "rear_width_mean": 0.15421461555278657,
+      "front_width_mean": 0.16488067435797898,
+      "rear_foot_distance_min": 0.12079391286470116,
+      "no_fall": true,
+      "minimum_rear_width_after_2s": 0.13425035086098228,
+      "within_3deg_heading": true
+    }
+  ],
+  "live_15m": {
+    "checkpoint": "model_7350.pt",
+    "engine": "physx",
+    "physics_dt": 0.0025,
+    "policy_hz": 50,
+    "rear_hip_offset_rad": 0.1,
+    "feedback_enabled": true,
+    "state": "finished-15m-standing",
+    "simulation_seconds": 29.68,
+    "position_m": [
+      15.005622863769531,
+      0.03983636572957039,
+      0.3702651858329773
+    ],
+    "heading_error_deg": -1.7878801539706946,
+    "cross_track_m": 0.03983636572957039,
+    "max_abs_heading_deg": 1.823251343171681,
+    "max_abs_cross_track_m": 0.041700974106788635,
+    "minimum_height_m": 0.3554951548576355,
+    "speed_request_m_s": 0.0,
+    "trial_speed_m_s": 0.5,
+    "actual_command": [
+      0.0,
+      0.0,
+      0.04680659297677768
+    ],
+    "rear_width_m": 0.1523569916106675,
+    "record_frames": 80,
+    "scene_backup": "${GO2_DEMO_ROOT}/scene-before-straight-20261025-172300"
+  },
+  "original_newton_20s": {
+    "engine": "original_newton_mjwarp",
+    "duration": 20.0,
+    "final_position": [
+      10.157215118408203,
+      1.5948671102523804,
+      0.3656933009624481
+    ],
+    "final_yaw_deg": 16.76465113173653,
+    "max_abs_lateral_m": 1.5948671102523804,
+    "rear_width_mean": 0.04923524984786127,
+    "rear_width_min": -0.06092282570898533,
+    "min_height": 0.35740038752555847,
+    "no_fall": true
+  },
+  "limits_fix_alone_changed_trajectory": false,
+  "limitations": [
+    "Flat ground only; no external pushes tested after the change.",
+    "At 0.3 m/s, startup heading transient exceeds the stricter 3 degree criterion.",
+    "The final deployment adds command feedback and rear hip action offsets to the unchanged actor."
+  ]
+}

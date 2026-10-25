@@ -1,0 +1,236 @@
+[
+  {
+    "seed": 910001,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.366
+  },
+  {
+    "seed": 910001,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.576
+  },
+  {
+    "seed": 910002,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 15.07
+  },
+  {
+    "seed": 910002,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.65
+  },
+  {
+    "seed": 910003,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.706
+  },
+  {
+    "seed": 910003,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.429
+  },
+  {
+    "seed": 910004,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.444
+  },
+  {
+    "seed": 910004,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.613
+  },
+  {
+    "seed": 910005,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.068
+  },
+  {
+    "seed": 910005,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.892
+  },
+  {
+    "seed": 910006,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.943
+  },
+  {
+    "seed": 910006,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.675
+  },
+  {
+    "seed": 910007,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.646
+  },
+  {
+    "seed": 910007,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 15.174
+  },
+  {
+    "seed": 910008,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.472
+  },
+  {
+    "seed": 910008,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.176
+  },
+  {
+    "seed": 910009,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.138
+  },
+  {
+    "seed": 910009,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.501
+  },
+  {
+    "seed": 910010,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.858
+  },
+  {
+    "seed": 910010,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.589
+  },
+  {
+    "seed": 910011,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.081
+  },
+  {
+    "seed": 910011,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.488
+  },
+  {
+    "seed": 910012,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.406
+  },
+  {
+    "seed": 910012,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.254
+  },
+  {
+    "seed": 910013,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.572
+  },
+  {
+    "seed": 910013,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.979
+  },
+  {
+    "seed": 910014,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.464
+  },
+  {
+    "seed": 910014,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.051
+  },
+  {
+    "seed": 910015,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.081
+  },
+  {
+    "seed": 910015,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.436
+  },
+  {
+    "seed": 910016,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 15.017
+  },
+  {
+    "seed": 910016,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.225
+  },
+  {
+    "seed": 910017,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 14.609
+  },
+  {
+    "seed": 910017,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.623
+  },
+  {
+    "seed": 910018,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.424
+  },
+  {
+    "seed": 910018,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.219
+  },
+  {
+    "seed": 910019,
+    "stage": "before",
+    "exit_code": 0,
+    "elapsed_seconds": 15.599
+  },
+  {
+    "seed": 910019,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.891
+  },
+  {
+    "seed": 910020,
+    "stage": "after",
+    "exit_code": 0,
+    "elapsed_seconds": 14.881
+  }
+]

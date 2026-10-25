@@ -1,0 +1,6 @@
+# Analysis/CPU-test dependencies, not simulator installation requirements.
+# PyTorch's matching CPU wheel can be installed separately for your platform.
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8
+torch==2.11.0

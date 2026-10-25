@@ -1,0 +1,17 @@
+{
+  "task": "Isaac-Velocity-Flat-UnitreeGo2",
+  "num_envs": 512,
+  "requested_iterations": 200,
+  "maximum_wall_seconds": 300,
+  "process_exit_code": 0,
+  "elapsed_seconds": 45,
+  "run_dir": "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200",
+  "checkpoints": [
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_0.pt",
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_50.pt",
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_100.pt",
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_150.pt",
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_199.pt"
+  ],
+  "selected_checkpoint": "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-22_22-44-07_shortcheck_200/model_199.pt"
+}

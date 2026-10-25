@@ -1,0 +1,33 @@
+{
+  "checks": {
+    "enough_independent_seeds": true,
+    "left2_improvement": true,
+    "backward_right_preserved": true,
+    "walking_passed": true,
+    "exact2_training_allocations_nonzero": true
+  },
+  "passed": true,
+  "retention": [
+    {
+      "direction": "backward",
+      "delta_pp": -0.1953125,
+      "ci95_pp": [
+        -0.48828125,
+        0.0
+      ],
+      "after_fall_rate": 0.0,
+      "passed": true
+    },
+    {
+      "direction": "right",
+      "delta_pp": 0.0,
+      "ci95_pp": [
+        0.0,
+        0.0
+      ],
+      "after_fall_rate": 0.0,
+      "passed": true
+    }
+  ],
+  "note": "Predeclared engineering gates; percentile seed-bootstrap bounds are approximate, not a proof of exact noninferiority or zero risk."
+}

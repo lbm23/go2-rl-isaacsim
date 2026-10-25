@@ -1,0 +1,145 @@
+{
+  "control_steps": 28922,
+  "direction_order": [
+    "forward",
+    "backward",
+    "left",
+    "right"
+  ],
+  "direction_probabilities_given_push": [
+    0.15,
+    0.4,
+    0.15,
+    0.3
+  ],
+  "no_push_probability": 0.3,
+  "push_onset_range_s": [
+    3.0,
+    8.0
+  ],
+  "push_duration_s": 0.2,
+  "strength_ranges_bw": [
+    [
+      0.25,
+      0.5
+    ],
+    [
+      0.5,
+      0.75
+    ],
+    [
+      0.75,
+      1.0
+    ]
+  ],
+  "final_stages": [
+    2,
+    2,
+    2,
+    2
+  ],
+  "completed_push_trials": [
+    6399.0,
+    16823.0,
+    6392.0,
+    12757.0
+  ],
+  "training_gate_successes": [
+    6273.0,
+    16466.0,
+    6255.0,
+    12520.0
+  ],
+  "sampled_push_episodes": 43291,
+  "sampled_no_push_episodes": 18362,
+  "sampled_push_direction_counts": [
+    6518.0,
+    17188.0,
+    6548.0,
+    13037.0
+  ],
+  "promotions": [
+    {
+      "control_step": 480,
+      "direction": "forward",
+      "new_range_bw": [
+        0.5,
+        0.75
+      ],
+      "training_gate_recovery_rate": 0.9940828402366864,
+      "window_trials": 169.0
+    },
+    {
+      "control_step": 480,
+      "direction": "backward",
+      "new_range_bw": [
+        0.5,
+        0.75
+      ],
+      "training_gate_recovery_rate": 0.9923664122137404,
+      "window_trials": 393.0
+    },
+    {
+      "control_step": 480,
+      "direction": "left",
+      "new_range_bw": [
+        0.5,
+        0.75
+      ],
+      "training_gate_recovery_rate": 1.0,
+      "window_trials": 139.0
+    },
+    {
+      "control_step": 480,
+      "direction": "right",
+      "new_range_bw": [
+        0.5,
+        0.75
+      ],
+      "training_gate_recovery_rate": 0.9931972789115646,
+      "window_trials": 294.0
+    },
+    {
+      "control_step": 1440,
+      "direction": "backward",
+      "new_range_bw": [
+        0.75,
+        1.0
+      ],
+      "training_gate_recovery_rate": 0.9927007299270073,
+      "window_trials": 274.0
+    },
+    {
+      "control_step": 1440,
+      "direction": "right",
+      "new_range_bw": [
+        0.75,
+        1.0
+      ],
+      "training_gate_recovery_rate": 0.9909502262443439,
+      "window_trials": 221.0
+    },
+    {
+      "control_step": 1680,
+      "direction": "forward",
+      "new_range_bw": [
+        0.75,
+        1.0
+      ],
+      "training_gate_recovery_rate": 0.9868421052631579,
+      "window_trials": 228.0
+    },
+    {
+      "control_step": 1680,
+      "direction": "left",
+      "new_range_bw": [
+        0.75,
+        1.0
+      ],
+      "training_gate_recovery_rate": 0.9953917050691244,
+      "window_trials": 217.0
+    }
+  ],
+  "training_gate": "90% of >=128 completed pushes per direction: recover within3s, error<=0.25m/s, yaw error<=0.5rad/s, tilt<=25deg, height>=0.25m for0.3s; survive until gate ends",
+  "formal_evaluation_gate_unchanged": true
+}

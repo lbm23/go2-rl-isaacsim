@@ -1,0 +1,14 @@
+{
+  "checkpoint": "model_7350.pt",
+  "all_actor_tensors_identical": true,
+  "tensors": {
+    "mlp.0.weight": true,
+    "mlp.0.bias": true,
+    "mlp.2.weight": true,
+    "mlp.2.bias": true,
+    "mlp.4.weight": true,
+    "mlp.4.bias": true,
+    "mlp.6.weight": true,
+    "mlp.6.bias": true
+  }
+}

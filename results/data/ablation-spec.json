@@ -1,0 +1,294 @@
+{
+  "stamp": "2026-10-23_ablation_8x2400",
+  "base_checkpoint": "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_00-26-28_robust_weighted600_fixed/model_4575.pt",
+  "base_sha256": "3dd78eba34c2ce81235c93a31daaca09151d089f3ac0f16df71c85e36b15b994",
+  "default_pointer_text": "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_11-08-48_left2_600/model_7350.pt\n",
+  "protected_hashes": {
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_00-26-28_robust_weighted600_fixed/model_4575.pt": "3dd78eba34c2ce81235c93a31daaca09151d089f3ac0f16df71c85e36b15b994",
+    "${GO2_PROJECT_ROOT}/IsaacLab/logs/rsl_rl/unitree_go2_flat/2026-10-23_11-08-48_left2_600/model_7350.pt": "ef2557038287f8cd9f8751bd9f00b33a862cf4f947f4336ce9d39b7bcd1d32d3",
+    "${GO2_PROJECT_ROOT}/reports/current_checkpoint.txt": "54d21d25fde0d05ad5697bb150980da0148d679cd89b64fef370845347163a02",
+    "${GO2_PROJECT_ROOT}/IsaacLab/pyproject.toml": "95741a04e3d5b130dbe369f29ae50ce2c8c8e7c402751d8d137777f77b727f66",
+    "${GO2_PROJECT_ROOT}/IsaacLab/uv.lock": "6ad6a7385bc6ac418d2ebe25e0b3a6e44b177c3b6b52cccd07c584aa4c08cba0",
+    "${GO2_PROJECT_ROOT}/experiments/push/push_experiment.py": "cc0e1797e2b4b62e203c84eb78210fd1f5ba4eece674a3e0a97179f6faca7dd4",
+    "${GO2_PROJECT_ROOT}/experiments/push/push_protocol.py": "9abe4286e146978fe8c8d454237c04f1229e029c81455ed37a59ce63ff17e5bd",
+    "${GO2_PROJECT_ROOT}/experiments/robust/robust_curriculum.py": "ed38ec1792e32ed9ac76940078f2e1250592b8008b55aab729f0219c737c6226",
+    "${GO2_PROJECT_ROOT}/experiments/walking/walking_evaluate.py": "e7fc1ab080640fe947170a2c01e9f33290e456f6831fc617fda5e9f4f09f4c1b"
+  },
+  "source_hashes": {
+    "ablation_prepare.py": "2c665e6bc048ba35d92ae33395cc6876a366bcb1364da2ee4a8a4f510926d684",
+    "ablation_supervisor.py": "d2bf061ff1427e839dc959fb070e0e1a16bb484a4225eb946879beba1116544d",
+    "ablation_evaluate_policy.py": "02f977d483ee618781f7e8cc8551dadee6389b9ddfc9374dc16259ae34a2051a",
+    "ablation_launch.py": "5551a55cb187286af49670182ea3a8b2ab35e24f64b2aa06f53bb806f42a9e43",
+    "test_ablation.py": "720e0d873d27da588d8493c1adc96d30851e305ba1002f9cab6d88f195c14d1d",
+    "ablation_curriculum.py": "0a22b0d71f07d790052ee4510c02bb040a2a1bdc3fac44c59e901a899be6386d",
+    "ablation_budget.py": "bab12927015fc8ad583403f5cdb8b955feebdcb13287e8c53254e37cb2f558d2",
+    "ablation_analyze.py": "bce2e7468c6ad80d44e69d0f5181ff151173d9a18eb889b21fc84c972531422a",
+    "ablation_train.py": "767a7f735e529cb655e262c9fdc95579a03ba37b782d54bed57cfe27903e1432",
+    "ablation_video.py": "cc1102ed45995bd47ac8c41aee98a645a4c323def2e3015d89ccf4756f610896"
+  },
+  "training_seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108
+  ],
+  "evaluation_seeds": [
+    930001,
+    930002,
+    930003,
+    930004,
+    930005,
+    930006,
+    930007,
+    930008,
+    930009,
+    930010,
+    930011,
+    930012,
+    930013,
+    930014,
+    930015,
+    930016
+  ],
+  "gpus": [
+    "<GPU_UUID>",
+    "<GPU_UUID>"
+  ],
+  "jobs": [
+    {
+      "id": "B101",
+      "group": "B",
+      "seed": 101,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A101",
+      "group": "A",
+      "seed": 101,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C101",
+      "group": "C",
+      "seed": 101,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A102",
+      "group": "A",
+      "seed": 102,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C102",
+      "group": "C",
+      "seed": 102,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B102",
+      "group": "B",
+      "seed": 102,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B103",
+      "group": "B",
+      "seed": 103,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A103",
+      "group": "A",
+      "seed": 103,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C103",
+      "group": "C",
+      "seed": 103,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C104",
+      "group": "C",
+      "seed": 104,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B104",
+      "group": "B",
+      "seed": 104,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A104",
+      "group": "A",
+      "seed": 104,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B105",
+      "group": "B",
+      "seed": 105,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A105",
+      "group": "A",
+      "seed": 105,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C105",
+      "group": "C",
+      "seed": 105,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C106",
+      "group": "C",
+      "seed": 106,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B106",
+      "group": "B",
+      "seed": 106,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A106",
+      "group": "A",
+      "seed": 106,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B107",
+      "group": "B",
+      "seed": 107,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A107",
+      "group": "A",
+      "seed": 107,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C107",
+      "group": "C",
+      "seed": 107,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "A108",
+      "group": "A",
+      "seed": 108,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "B108",
+      "group": "B",
+      "seed": 108,
+      "gpu": "<GPU_UUID>"
+    },
+    {
+      "id": "C108",
+      "group": "C",
+      "seed": 108,
+      "gpu": "<GPU_UUID>"
+    }
+  ],
+  "updates_per_run": 2400,
+  "num_envs": 2048,
+  "rollout_steps": 24,
+  "transitions_per_run": 117964800,
+  "total_training_transitions": 2831155200,
+  "train_time_limit_s": 720,
+  "policy_eval_time_limit_s": 360,
+  "global_time_limit_s": 28800,
+  "direction_order": [
+    "forward",
+    "backward",
+    "left",
+    "right"
+  ],
+  "direction_weights_A": [
+    0.25,
+    0.25,
+    0.25,
+    0.25
+  ],
+  "direction_weights_BC": [
+    0.05,
+    0.25,
+    0.5,
+    0.2
+  ],
+  "no_push_probability": 0.3,
+  "push_duration_s": 0.2,
+  "push_onset_range_s": [
+    3,
+    8
+  ],
+  "curriculum_boundaries_completed_updates": [
+    720,
+    1440
+  ],
+  "static_pooled_phase_weights": [
+    0.3,
+    0.3,
+    0.4
+  ],
+  "left_rehearsal_probability": 0.25,
+  "left_rehearsal_range_bw": [
+    0.75,
+    1.25
+  ],
+  "strong_left_phase_ranges_bw": [
+    [
+      1,
+      1.5
+    ],
+    [
+      1.25,
+      1.75
+    ],
+    [
+      1.5,
+      2
+    ]
+  ],
+  "phase2_strong_exact2_probability": 0.3333333333333333,
+  "backward_right_exact1_probability": 0.25,
+  "backward_right_uniform_range_bw": [
+    0.5,
+    1
+  ],
+  "forward_range_bw": [
+    0.25,
+    1
+  ],
+  "primary": "2 BW left fall rate; paired differences across eight independent training seeds",
+  "contrasts": [
+    "B-A",
+    "C-B",
+    "C-A"
+  ],
+  "multiple_testing": "Holm across three primary contrasts",
+  "practical_improvement_pp": 5,
+  "retention_margin_pp": 2,
+  "retention_simultaneous_quantile": 0.9875,
+  "checkpoint_selection": "final exact2400 only; no held-out evaluation used for selection",
+  "training_failure_policy": "Report every failed/missing run; withhold full confirmatory inference if any repeat is incomplete",
+  "gpu_preflight": "<GPU_UUID>, NVIDIA GeForce RTX 5090, 155 MiB, 0 %\n<GPU_UUID>, NVIDIA GeForce RTX 5090, 15 MiB, 0 %\n",
+  "compute_processes_preflight": "",
+  "prepared_epoch": 1792737470.0309706,
+  "started_epoch": 1792737472.8502383,
+  "deadline_epoch": 1792766272.8502383
+}
